@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(3, 2, 61);
+}
+
+.maintitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+   
+}
+
+.mainpage{
+    margin:auto;
+    font-size: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    text-shadow: rgb(189, 43, 226) 20px 20px 40px ;
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 4em;
+    color: white;
+}
