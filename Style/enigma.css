@@ -344,3 +344,24 @@ Button
     top: 610px;
     left: 1500px;
   }
+
+  .go{
+    font-size: 2em;
+    color:whitesmoke;
+    position: absolute;
+    left: 1500px;
+    animation: go 2s ease 0s infinite normal forwards;
+  }
+
+  @keyframes go {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }

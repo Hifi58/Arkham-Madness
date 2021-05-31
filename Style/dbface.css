@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(46, 42, 42);
+}
+
+.good{
+    clip-path: polygon(20% 0%, 51% 0, 51% 25%, 51% 76%, 51% 100%, 25% 100%, 0 75%, 0 23%);
+    width: 280px;
+    height: 280px;
+}
+
+.bad{
+    clip-path: polygon(79% 0, 51% 0, 51% 25%, 51% 76%, 51% 100%, 73% 100%, 100% 77%, 100% 23%);
+}
