@@ -18,6 +18,7 @@ Button
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 300px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -44,12 +45,12 @@ Button
             box-shadow: 0px 12px 0px 0px #1d9911, 5px 12px 34px 18px #000;
   }
   
-  .containerpush .wrapperpush .textpush {
+  .textpush {
     position: relative;
     top: 35%;
   }
   
-  .containerpush .wrapperpush .push {
+   .push {
     background: none;
     border: none;
     position: relative;
@@ -128,12 +129,31 @@ Button
   .e,
   .f,
   .g,
-  .h{
+  .h,
+  .i,
+  .j,
+  .k,
+  .l,
+  .m,
+  .n,
+  .o,
+  .p,
+  .q,
+  .r,
+  .s,
+  .t,
+  .u,
+  .v,
+  .w,
+  .x,
+  .y,
+  .z{
     color:#1d9911;
     font-family: 'Pattaya', sans-serif;
     font-weight: lighter;
     cursor: help;
-    animation: enigme 1s ease 0s 1 normal forwards;
+    animation: enigme 3s ease 0s 1 normal forwards;
+    font-size: 2.5em;
   }
 
   @keyframes enigme {
@@ -146,60 +166,160 @@ Button
       opacity: 1;
       transform: scale(1);
     }
-  }
+  } 
 
   .a{
     position: absolute;
-    top: 400px;
-    left: 143px;
-    font-size: 10em;
+    top: 50px;
+    left: 450px;
   }
 
   .b{
     position: absolute;
-    top: 100px;
-    left: 370px;
-    font-size: 5em;
+    top: 110px;
+    left: 140px;
   }
 
   .c{
     position: absolute;
-    top: 365px;
-    left: 550px;
-    font-size: 8em;
+    top: 150px;
+    left: 320px;
   }
 
   .d{
     position: absolute;
     top: 200px;
-    left: 80px;
-    font-size: 1.9em;
+    left: 40px;
   }
 
   .e{
     position: absolute;
-    top: 400px;
-    left: 1080px;
-    font-size: 3em;
+    top: 250px;
+    left: 220px;
   }
 
   .f{
     position: absolute;
-    top: 100px;
-    left: 1000px;
-    font-size: 9em;
+    top: 300px;
+    left: 500px;
   }
 
   .g{
     position: absolute;
-    top: 380px;
-    left: 1480px;
-    font-size: 11em;
+    top: 353px;
+    left: 350px;
   }
 
   .h{
     position: absolute;
-    top: 30px;
-    left: 1400px;
-    font-size: 7em;
+    top: 412px;
+    left: 120px;
+  }
+
+  .i{
+    position: absolute;
+    top: 450px;
+    left: 520px;
+  }
+
+  .j{
+    position: absolute;
+    top: 500px;
+    left: 1320px;
+  }
+
+  .k{
+    position: absolute;
+    top: 550px;
+    left: 380px;
+  }
+
+  .l{
+    position: absolute;
+    top: 600px;
+    left: 80px;
+  }
+
+  .m{
+    position: absolute;
+    top: 690px;
+    left: 315px;
+  }
+
+  .n{
+    position: absolute;
+    top: 650px;
+    left: 700px;
+  }
+
+  .o{
+    position: absolute;
+    top: 550px;
+    left: 770px;
+  }
+
+  .p{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+  }
+
+  .q{
+    position: absolute;
+    top: 70px;
+    left: 850px;
+  }
+
+  .r{
+    position: absolute;
+    top: 190px;
+    left: 970px;
+  }
+
+  .s{
+    position: absolute;
+    top: 420px;
+    left: 960px;
+  }
+
+  .t{
+    position: absolute;
+    top: 618px;
+    left: 1000px;
+  }
+
+  .u{
+    position: absolute;
+    top: 360px;
+    left: 1150px;
+  }
+
+  .v{
+    position: absolute;
+    top: 60px;
+    left: 1200px;
+  }
+
+  .w{
+    position: absolute;
+    top: 75px;
+    left: 1450px;
+  }
+
+  .x{
+    position: absolute;
+    top: 262px;
+    left: 1300px;
+  }
+
+  .y{
+    position: absolute;
+    top: 653px;
+    left: 1250px;
+  }
+
+  .z{
+    position: absolute;
+    top: 610px;
+    left: 1500px;
   }
