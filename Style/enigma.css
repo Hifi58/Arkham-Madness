@@ -6,7 +6,7 @@ body {
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    background-color: #27084d;
+    background-color: #14022a;
   }
 
 /*-------------
@@ -129,7 +129,6 @@ Button
   .f,
   .g,
   .h{
-    font-size: 10em;
     color:#1d9911;
     font-family: 'Pattaya', sans-serif;
     font-weight: lighter;
@@ -153,54 +152,54 @@ Button
     position: absolute;
     top: 400px;
     left: 143px;
-  
+    font-size: 10em;
   }
 
   .b{
     position: absolute;
     top: 100px;
     left: 370px;
-    
+    font-size: 5em;
   }
 
   .c{
     position: absolute;
     top: 365px;
     left: 550px;
-    
+    font-size: 8em;
   }
 
   .d{
     position: absolute;
     top: 200px;
     left: 80px;
-   
+    font-size: 1.9em;
   }
 
   .e{
     position: absolute;
-    top: 300px;
+    top: 400px;
     left: 1080px;
-
+    font-size: 3em;
   }
 
   .f{
     position: absolute;
     top: 100px;
     left: 1000px;
-   
+    font-size: 9em;
   }
 
   .g{
     position: absolute;
     top: 380px;
     left: 1480px;
- 
+    font-size: 11em;
   }
 
   .h{
     position: absolute;
     top: 30px;
     left: 1400px;
-  
+    font-size: 7em;
   }

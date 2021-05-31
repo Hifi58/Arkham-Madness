@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+
 body{
-    background-color: rgb(3, 2, 61);
+    background-color: rgb(3, 7, 27);
+    font-family: 'Warnes', cursive;
 }
 
 .maintitle{
@@ -12,24 +17,91 @@ body{
 
 .mainpage{
     margin:auto;
-    font-size: 5em;
+    font-size: 3em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 h1{
-    text-shadow: rgb(189, 43, 226) 20px 20px 40px ;
+    letter-spacing: 10px;
     color: white;
+    animation: glow 3s ease 0s infinite normal backwards;
 }
 
+@keyframes glow {
+    0%,
+    50%,
+    100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e61b00, 0 0 40px #e60000, 0 0 50px #e64100, 0 0 60px #e64900, 0 0 70px #e64100;
+    }
+  
+    25%,
+    75% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e61b00, 0 0 20px #e60000, 0 0 25px #e64100, 0 0 30px #e64900, 0 0 35px #e64100;
+    }
+  }
+
 button{
+    margin-top: 50px;
     background-color: transparent;
     border: none;
 }
+
+button:hover{
+    animation: vibrate 1ms ease 0s infinite alternate-reverse both;
+
+}
+
+@keyframes vibrate {
+    0% {
+      transform: translate(0);
+    }
+  
+    10% {
+      transform: translate(-2px, -2px);
+    }
+  
+    20% {
+      transform: translate(2px, -2px);
+    }
+  
+    30% {
+      transform: translate(-2px, 2px);
+    }
+  
+    40% {
+      transform: translate(2px, 2px);
+    }
+  
+    50% {
+      transform: translate(-2px, -2px);
+    }
+  
+    60% {
+      transform: translate(2px, -2px);
+    }
+  
+    70% {
+      transform: translate(-2px, 2px);
+    }
+  
+    80% {
+      transform: translate(-2px, -2px);
+    }
+  
+    90% {
+      transform: translate(2px, -2px);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
 
 a{
     text-decoration: none;
     font-size: 4em;
     color: white;
+    font-family: 'Fresca', sans-serif;
 }
