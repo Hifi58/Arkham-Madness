@@ -53,6 +53,11 @@ Button
    .push {
     background: none;
     border: none;
+  }
+
+  a{
+    text-decoration: none;
+    border: none;
     position: relative;
     bottom: 30px;
     left: 5px;
@@ -153,7 +158,6 @@ Button
     font-weight: lighter;
     cursor: help;
     animation: enigme 3s ease 0s 1 normal forwards;
-    font-size: 2.5em;
   }
 
   @keyframes enigme {
@@ -172,6 +176,7 @@ Button
     position: absolute;
     top: 50px;
     left: 450px;
+    font-size: 2.5em;
   }
 
   .b{
@@ -184,12 +189,14 @@ Button
     position: absolute;
     top: 150px;
     left: 320px;
+    font-size: 2.5em;
   }
 
   .d{
     position: absolute;
     top: 200px;
     left: 40px;
+    font-size: 3em;
   }
 
   .e{
@@ -202,12 +209,14 @@ Button
     position: absolute;
     top: 300px;
     left: 500px;
+    font-size: 3em;
   }
 
   .g{
     position: absolute;
     top: 353px;
     left: 350px;
+    font-size: 2.5em;
   }
 
   .h{
@@ -220,12 +229,14 @@ Button
     position: absolute;
     top: 450px;
     left: 520px;
+    font-size: 2.5em;
   }
 
   .j{
     position: absolute;
     top: 500px;
     left: 1320px;
+    font-size: 3em;
   }
 
   .k{
@@ -238,12 +249,14 @@ Button
     position: absolute;
     top: 600px;
     left: 80px;
+    font-size: 3em;
   }
 
   .m{
     position: absolute;
     top: 690px;
     left: 315px;
+    font-size: 2.5em;
   }
 
   .n{
@@ -256,6 +269,7 @@ Button
     position: absolute;
     top: 550px;
     left: 770px;
+    font-size: 2.5em;
   }
 
   .p{
@@ -268,18 +282,21 @@ Button
     position: absolute;
     top: 70px;
     left: 850px;
+    font-size: 2.5em;
   }
 
   .r{
     position: absolute;
     top: 190px;
     left: 970px;
+    font-size: 3em;
   }
 
   .s{
     position: absolute;
     top: 420px;
     left: 960px;
+    font-size: 2.5em;
   }
 
   .t{
@@ -292,12 +309,14 @@ Button
     position: absolute;
     top: 360px;
     left: 1150px;
+    font-size: 2.5em;
   }
 
   .v{
     position: absolute;
     top: 60px;
     left: 1200px;
+    font-size: 3em;
   }
 
   .w{
@@ -310,12 +329,14 @@ Button
     position: absolute;
     top: 262px;
     left: 1300px;
+    font-size: 3em;
   }
 
   .y{
     position: absolute;
     top: 653px;
     left: 1250px;
+    font-size: 2.5em;
   }
 
   .z{
