@@ -22,7 +22,7 @@
     }
 
 body{
-    background-color: rgb(34, 29, 29);
+    background-color: rgb(14, 13, 13);
 }
 
 .container{
@@ -56,3 +56,19 @@ a{
     text-shadow: 14px 14px 14px #000000;
 }
 
+.imgcontainer{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.imgcontainer2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.size{
+    margin: auto;
+    width: 25%;
+    height: 50%;
+}
