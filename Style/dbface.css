@@ -8,12 +8,59 @@ body{
     background-color: rgb(46, 42, 42);
 }
 
-.good{
-    clip-path: polygon(20% 0%, 51% 0, 51% 25%, 51% 76%, 51% 100%, 25% 100%, 0 75%, 0 23%);
-    width: 280px;
-    height: 280px;
+.container{
+    display: flex;
+    min-height: 70vh;
 }
 
-.bad{
-    clip-path: polygon(79% 0, 51% 0, 51% 25%, 51% 76%, 51% 100%, 73% 100%, 100% 77%, 100% 23%);
+h1{
+    margin: auto;
 }
+
+.containerbtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 190, 165);
+    min-height: 1vh;
+    border-radius: 5px;
+}
+
+.btn{
+    margin: auto;
+    width: 30px;
+    height: 60px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px #000;
+    cursor: pointer;
+    background-color: rgb(219, 209, 200);;
+}
+
+.coin{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(172, 172, 172);
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 25px 0px 0px 1px #7b7b7b;
+    animation: myAnim 500ms ease 0s 1 normal forwards;
+
+}
+
+@keyframes myAnim {
+    0% {
+      transform: scale(2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
