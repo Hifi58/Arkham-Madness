@@ -60,6 +60,8 @@ a{
     display: flex;
     justify-content: space-between;
     min-height: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .imgcontainer2{
@@ -69,6 +71,8 @@ a{
 }
 .size{
     margin: auto;
-    width: 25%;
-    height: 50%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
 }
