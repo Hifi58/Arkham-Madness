@@ -6,10 +6,12 @@ btn.addEventListener('click', function headsOrTails(){
 var nb = Math.round(Math.random());
 if(nb == 1){
 console.log(nb);
-btn.style.display = (btn.style.display == 'none' ? '' : 'none');
+face.style.display = (face.style.display == 'block' ? 'none' : 'block');
+result.style.display = (result.style.display == 'none' ? 'block' : 'none');
 }else{
     console.log(nb);
-    result.style.display = (result.style.display == 'none' ? '' : 'none');
+    result.style.display = (result.style.display == 'block' ? 'none' : 'block');
+    face.style.display = (face.style.display == 'none' ? 'block' : 'none');
 }
 
 });
