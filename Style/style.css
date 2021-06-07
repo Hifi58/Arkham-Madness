@@ -50,7 +50,12 @@ button{
 
 button:hover{
     animation: vibrate 1ms ease 0s infinite alternate-reverse both;
+    text-shadow: 85px 35px 6px #000000, -90px -45px 6px #000000, 100px -11px 6px #000000, -100px 7px 6px #000000;
+}
 
+a:hover{
+  color: #000000;
+  font-size: 4.2em;
 }
 
 @keyframes vibrate {
