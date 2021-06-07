@@ -75,4 +75,5 @@ a{
     height: 400px;
     border-radius: 50%;
     overflow: hidden;
+    box-shadow: 0px 0px 39px 36px #000;
 }

@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(46, 42, 42);
+  background: linear-gradient(90deg, #393434 43%, #5d607d 64%);
 }
 
 .container{
